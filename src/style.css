@@ -1,1 +1,28 @@
 /* styles go here */
+* {
+  display: revert;
+  box-sizing: border-box;
+}
+
+.form-field {
+  display: block;
+  margin: 10px;
+}
+
+.table {
+  margin: 20px;
+}
+
+.radio {
+  display: inline;
+  margin-right: 0;
+}
+
+.radio2 {
+  margin-left: 0;
+}
+
+.submit {
+  margin: 0 20px;
+  border-radius: 5px;
+}
