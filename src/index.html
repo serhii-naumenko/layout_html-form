@@ -2,8 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta
-      name="viewport"
+    <meta name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -22,35 +21,41 @@
         <label class="form-field">
           Surname:
           <input type="text" name="surname"
-          required
-          pattern="\w"
-          autocomplete="off"
+            required
+            pattern="\w"
+            autocomplete="off"
           >
         </label>
         <label class="form-field">
           Name:
           <input type="text" name="name"
-          required
-          pattern="\w"
-          autocomplete="off"
+            required
+            pattern="\w"
+            autocomplete="off"
           >
         </label>
         <label class="form-field">
           How old are you?
           <input type="number" name="age"
-          required
-          min="1"
-          max="100"
-          placeholder="12"
+            required
+            min="1"
+            max="100"
+            placeholder="12"
           >
         </label>
         <label class="form-field">
           Full date of birth:
-          <input type="date" name="dateBirth" required>
+          <input type="date"
+            name="dateBirth"
+            required
+          >
         </label>
         <label class="form-field">
           I accept the term of the agreement:
-          <input type="checkbox" name="terms" required>
+          <input type="checkbox"
+            name="terms"
+            required
+          >
         </label>
       </fieldset>
       <fieldset class="table">
@@ -63,9 +68,9 @@
         </label>
         <label class="form-field">Password:
           <input type="text" name="name"
-           required
-           minlength="5"
-           maxlength="20">
+            required
+            minlength="5"
+            maxlength="20">
         </label>
       </fieldset>
       <fieldset class="table">
@@ -73,15 +78,17 @@
         <label class="form-field radio">
           Do you love cats?:
           <input type="radio" name="cats"
-            valume="y"
-            required>
+            value="y"
+            required
+          >
             Yes
         </label>
         <label class="form-field radio radio2">
           <input type="radio" name="cats"
-            valume="n"
+            value="n"
             required
-            >No
+          >
+          No
         </label>
         <label class="form-field">
           What is you favorite color?
@@ -93,7 +100,7 @@
         </label>
         <label class="form-field">
           What are your favorite brand of car?
-          <select name="mark" required>
+          <select name="mark" required multiple>
             <option value=" " disabled selected></option>
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
@@ -122,7 +129,7 @@
           </select>
         </label>
       </fieldset>
-      <button class="submit">Submit</button>
+      <button type="submit">Submit</button>
     </form>
   </body>
 </html>
