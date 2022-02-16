@@ -19,3 +19,8 @@
 .radio {
   display: inline;
 }
+
+.radio1 {
+  display: inline-block;
+  margin-bottom: 15px;
+}
